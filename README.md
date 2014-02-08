@@ -44,7 +44,7 @@
 
 [Twitter](https://twitter.com/eielh) [gmail](mailto: eiel.hal@gmail.com) [Issues](https://github.com/eiel/need_a_girlfriend/issues)
 
-このREADME.mdはHaskellで生成しています。 pull request は [source](https://github.com/eiel/need_a_girlfriend/tree/source) ブランチにお願いします。
+この README.md は Haskell で生成しています。master ブランチへの push は travis で自動化しています。pull request は [source](https://github.com/eiel/need_a_girlfriend/tree/source) ブランチにお願いします。
 
 ## 参考
 
