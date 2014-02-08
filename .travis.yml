@@ -8,7 +8,9 @@ after_success:
   - git checkout master
   - git merge source --no-edit
   - git add README.md
-  - git commit -m "Generate Travis\n\nhttps://travis-ci.org/eiel/need_a_girlfriend/builds/$TRAVIS_BUILD_ID"
+  - git commit -m "Generate Travis JOB TRAVIS_JOB_NUMBER
+
+https://travis-ci.org/eiel/need_a_girlfriend/builds/$TRAVIS_BUILD_ID"
   - '[ "x$TRAVIS_BRANCH" == "xsource" ] && git push -q deploy master 2>/dev/null'
 branches:
   except:

@@ -57,7 +57,7 @@ contact = do
   h2 "連絡先"
   p "条件を満たすとかそんなに気にしなくて良いと思う。会ってみたいとか、試しに一緒に過ごして思えば、好きな方法で連絡してみてください。写真とかぐぐればちらほら出てしまいます。たぶん。"
   p "[Twitter](https://twitter.com/eielh) [gmail](mailto: eiel.hal@gmail.com) [Issues](https://github.com/eiel/need_a_girlfriend/issues)"
-  p "このREADME.mdはHaskellで生成しています。 pull request は [source](https://github.com/eiel/need_a_girlfriend/tree/source) ブランチにお願いします。"
+  p "この README.md は Haskell で生成しています。master ブランチへの push は travis で自動化しています。pull request は [source](https://github.com/eiel/need_a_girlfriend/tree/source) ブランチにお願いします。"
 
 reference = do
   h2 "参考"
