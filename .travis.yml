@@ -1,0 +1,22 @@
+language: haskell
+install: cabal install mtl
+script: ghc need_a_girlfriend.hs
+after_success:
+  - ./need_a_girlfriend > README.md
+  - git remote add deploy https://$GH_TOKEN@github.com/eiel/need_a_girlfriend.git
+  - git fetch deploy master
+  - git checkout master
+  - git merge source --no-edit
+  - git add README.md
+  - git commit -m "Generate Travis\n\nhttps://travis-ci.org/eiel/need_a_girlfriend/builds/$TRAVIS_BUILD_ID"
+  - '[ "x$TRAVIS_BRANCH" == "xsource" ] && git push -q deploy master 2>/dev/null'
+branches:
+  except:
+    - master
+env:
+  global:
+    - secure: "KJG63ZK8zdEboimt/+UOVDUu+cECmvSgsCyEUEQVjMnazxpEaNQbP+lEQv9TWki6eRtr71+vt3LU7H4H8Wm/jURV2WiYe31ZeE7wvRcjjaHRWHYfeTJ5OyBJhCJoauKBAwL/jIFSTDt3IEgGIW42WPwagGexHKm+Vh/0ETK1CNc="
+    - GIT_COMMITTER_NAME="Tomohiko Himura"
+    - GIT_COMMITTER_EMAIL="eiel.hal@gmail.com"
+    - GIT_AUTHOR_NAME="Tomohiko Himura"
+    - GIT_AUTHOR_EMAIL="eiel.hal@gmail.com"

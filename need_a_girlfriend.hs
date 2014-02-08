@@ -43,7 +43,7 @@ profile = do
      ("ゲーム", "Beatmania IIDX SP 8段 DP 7段, jubeat ☆10は全部クリアできる程度"),
      ("たばこ","吸うと医者に怒られるし、吸ったこともない"),
      ("お酒","飲んでも医者には怒られないっぽいけど、基本的に飲まない。"),
-     ("好きな音楽", "Syroup 16g 「(I'm not) by you」 とか 「ハミングバード」あたりが好き。高橋優 「花のように」 とか 「駱駝」が好き。Ryu☆ HAPPY HARD CORE な曲が好き"),
+     ("好きな音楽", "Syrup 16g 「(I'm not) by you」 とか 「ハミングバード」あたりが好き。高橋優 「花のように」 とか 「駱駝」が好き。Ryu☆ HAPPY HARD CORE な曲が好き"),
      ("趣味", "ゲーム、コンピュータ、アニメ除いたらあんまりないけど、変わったものとか新しいものが好き。アニメは見れそうなものはだいたい見たい。放送中のものでは「凪のあすから」が好き。")
      ]
 
@@ -57,7 +57,7 @@ contact = do
   h2 "連絡先"
   p "条件を満たすとかそんなに気にしなくて良いと思う。会ってみたいとか、試しに一緒に過ごして思えば、好きな方法で連絡してみてください。写真とかぐぐればちらほら出てしまいます。たぶん。"
   p "[Twitter](https://twitter.com/eielh) [gmail](mailto: eiel.hal@gmail.com) [Issues](https://github.com/eiel/need_a_girlfriend/issues)"
-  p "このREADME.mdはHaskellで生成してみてます。 詳しくは [source](https://github.com/eiel/need_a_girlfriend/tree/source) ブランチを。"
+  p "このREADME.mdはHaskellで生成しています。 pull request は [source](https://github.com/eiel/need_a_girlfriend/tree/source) ブランチにお願いします。"
 
 reference = do
   h2 "参考"
