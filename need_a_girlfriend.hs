@@ -1,6 +1,7 @@
 import Control.Monad.Writer
 
 main = mapM_ putStr $ snd . runWriter $ do
+  p "**現在募集は終了しましたが参考にしたい人がいるかもしれませんので残しておきます。**"
   h1 "彼女募集"
   background
   proviso

@@ -8,7 +8,7 @@ after_success:
   - git merge source --no-edit
   - ./need_a_girlfriend > README.md
   - git add README.md
-  - 'git commit -m "Generate Travis JOB TRAVIS_JOB_NUMBER
+  - 'git commit -m "Generate Travis JOB $TRAVIS_JOB_NUMBER
 
 https://travis-ci.org/eiel/need_a_girlfriend/builds/$TRAVIS_BUILD_ID"'
   - '[ "x$TRAVIS_BRANCH" == "xsource" ] && git push -q deploy master 2>/dev/null'
